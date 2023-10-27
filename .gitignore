@@ -1,0 +1,39 @@
+﻿# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific Visual Studio files
+.vscode/
+.vs/
+
+# User-specific files
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directories
+.vscode/
+
+# Windows image file caches
+$SysReset/
+
+# Config 
+Config/
+config/
+
+
+# debug and release configuration 
+obj/
+bin/
