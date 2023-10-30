@@ -8,12 +8,12 @@ namespace Domain.ValueObjects
 {
     public partial record Address
     {
-        public string Country { get; set; }
-        public string Line1 { get; set; }   
-        public string Line2 { get; set; }
-        public string City { get; set; }    
-        public string State { get; set; }   
-        public string ZipCode { get; set; } 
+        public string Country { get; init; }
+        public string Line1 { get; init; }   
+        public string Line2 { get; init; }
+        public string City { get; init; }    
+        public string State { get; init; }   
+        public string ZipCode { get; init; } 
 
 
         public Address(string country, string line1, string line2, string city, string state, string zipCode) 
