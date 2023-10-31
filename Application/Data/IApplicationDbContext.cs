@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 namespace Application.Data
 {
-    internal interface IApplicationDbContext
+    public interface IApplicationDbContext
     {
         DbSet<Customer> Customers { get; set; }
 
